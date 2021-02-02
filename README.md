@@ -1,3 +1,3 @@
 Clothing automation
 
-My first of many python automation tool designed to help people get things a lower prices.
+My first of many python automation tools designed to help people get things a lower prices.
