@@ -1,3 +1,3 @@
-Purchasing automation
+Python automation
 
-My first of many python automation tools designed to help people get the things they want at lower prices.
+Automatic login and adding content to websites.
