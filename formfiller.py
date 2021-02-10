@@ -9,6 +9,9 @@ PATH = "/usr/local/bin/chromedriver"
 driver = webdriver.Chrome(PATH)
 
 driver.get("https://www.kairoberts.dev")
+driver.maximize_window()
+
+time.sleep(1)
 
 button = driver.find_element_by_link_text("Contact")
 button.click()
@@ -42,9 +45,12 @@ try:
     submit = driver.find_element_by_id("contact-btn")
     submit.click()
 
+    time.sleep(2)
+
     driver.back()
 
-    time.sleep(2)
+    time.sleep(1)
+
 
 finally:
     driver.quit()
