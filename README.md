@@ -1,3 +1,3 @@
 Python automation
 
-Automated login and adding content into GymHub
+Automated form filling script using webdriver
